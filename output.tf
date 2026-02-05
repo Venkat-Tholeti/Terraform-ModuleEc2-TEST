@@ -1,11 +1,11 @@
-output "public_ip" {
+output "pub_ip" {
     value = module.ec2.public_ip
 }
 
-output "private_ip" {
+output "pri_ip" {
     value = module.ec2.private_ip
 }
 
-output "instance_id" {
+output "insta_id" {
     value = module.ec2.instance_id
 }
